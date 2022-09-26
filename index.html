@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Artur Bomtempo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora de Gorjetas</title>
+    <!-- === CSS File === -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- === Title === -->
+    <div id="container">
+        <div>
+            <h1 id="title">Calculadora de gorjetas</h1>
+        </div>
+        <div>
+            <!-- === Form === -->
+            <form id="tips-form">
+                <label for="bill">Quanto ficou a conta?</label>
+                <p>R&#36; <input type="number" name="bill" id="bill" class="form-input" placeholder="100" required min="1"> </p>
+                <label for="service">Como foi seu serviço?</label>
+                <p>
+                    <select name="service" id="service" required>
+                        <option disable selected value="0">Escolha uma opção</option>
+                        <option value="0.3">30% - Incrível</option>
+                        <option value="0.2">20% - Bom</option>
+                        <option value="0.15">15% - Aceitável</option>
+                        <option value="0.1">10% - Ruim</option>
+                        <option value="0.05">5% - Péssimo</option>
+                    </select>
+                </p>
+                <label for="people">Quantas pessoas vão dividir a conta?</label>
+                <p> <input type="number" name="people" id="people" class="form-input" placeholder="1" required> pessoa(s)</p>
+                <button type="submit" id="btn">Calcular</button>
+            </form>
+        </div>
+        <div id="result">
+            Gorjeta total: R&#36; <span id="tip">0.00</span>
+            <span id="each">cada</span>
+        </div>
+    </div>
+
+    <!-- === JS File === -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
