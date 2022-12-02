@@ -12,4 +12,4 @@ The main function of the project is to calculate the amount of the tip that will
 * `JavaScript:` Dynamicity of the page
 
 # 📁 Project access
-You can [access the source code](https://github.com/ArturColen/TipCalculator) or [view the hosted page](https://arturcolen.github.io/TipCalculator/).
+You can [access the source code](https://github.com/ArturColen/TipCalculator) or [view the hosted page](https://tipcalculatorr.surge.sh).
