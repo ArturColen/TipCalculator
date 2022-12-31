@@ -1,7 +1,7 @@
-// Perception of the event when clicking the button
+// Execute the event by clicking the button
 document.getElementById('tips-form').addEventListener('submit', calculateTip);
 
-// Function to calculate tip
+// Calculate the tip value
 function calculateTip(event) {
     event.preventDefault();
     let bill = document.getElementById('bill').value;
