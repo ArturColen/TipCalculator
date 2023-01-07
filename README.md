@@ -1,4 +1,4 @@
-# Creation a tip calculator
+# Tip calculator
 Project developed from the classes of the "Start na programação" program from [One Bit Code](https://onebitcode.com/). Its main objective is to introduce the concept of web development with HTML, CSS and JavaScript.
 
 ![Image of the tip calculator](https://user-images.githubusercontent.com/96635074/192380030-ab3f4f9e-8394-413a-9f88-c4aec313ef2d.png)
